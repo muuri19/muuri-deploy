@@ -5,6 +5,7 @@ D:/FLUTTER PROJECT/muuri_app/build/windows/x64/runner/Debug/data/flutter_assets/
 D:/FLUTTER PROJECT/muuri_app/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.bin.json
 D:/FLUTTER PROJECT/muuri_app/build/windows/x64/runner/Debug/data/flutter_assets/AssetManifest.json
 D:/FLUTTER PROJECT/muuri_app/build/windows/x64/runner/Debug/data/flutter_assets/assets/images/banner.png
+D:/FLUTTER PROJECT/muuri_app/build/windows/x64/runner/Debug/data/flutter_assets/assets/images/icon_launcher.png
 D:/FLUTTER PROJECT/muuri_app/build/windows/x64/runner/Debug/data/flutter_assets/assets/json/404.json
 D:/FLUTTER PROJECT/muuri_app/build/windows/x64/runner/Debug/data/flutter_assets/FontManifest.json
 D:/FLUTTER PROJECT/muuri_app/build/windows/x64/runner/Debug/data/flutter_assets/fonts/MaterialIcons-Regular.otf
