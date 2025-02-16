@@ -32,14 +32,14 @@ class ButtonLinkBio extends StatelessWidget {
           // Desktop
           width = MediaQuery.of(context).size.width * 0.6;
           height = 60;
-          fontSize = 12;
+          fontSize = 14;
           iconActionSize = 15;
           iconLeadingSize = 24;
         } else if (constraints.maxWidth > 600) {
           // Tablet
           width = MediaQuery.of(context).size.width * 0.6;
           height = 60;
-          fontSize = 12;
+          fontSize = 14;
           iconActionSize = 15;
           iconLeadingSize = 24;
         } else {
@@ -78,7 +78,8 @@ class ButtonLinkBio extends StatelessWidget {
                   ),
                   Text(
                     title,
-                    style: TextStyle(color: AppColors.white),
+                    style:
+                        TextStyle(color: AppColors.white, fontSize: fontSize),
                   ),
                   FaIcon(
                     FontAwesomeIcons.upRightFromSquare,
