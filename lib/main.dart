@@ -11,13 +11,12 @@ void main() {
   runApp(
     GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Application",
+      title: "Muhammad Sadri",
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
       unknownRoute:
-        
           GetPage(name: AppPages.PAGENOTFOUND, page: () => NotFoundPageView()),
-          defaultTransition: Transition.noTransition,
+      defaultTransition: Transition.noTransition,
     ),
   );
 }

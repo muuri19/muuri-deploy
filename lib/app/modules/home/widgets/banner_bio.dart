@@ -8,21 +8,25 @@ class BannerBio extends StatelessWidget {
   Widget build(BuildContext context) {
     return LayoutBuilder(builder: (context, constraints) {
       double width;
+      double height;
 
       if (constraints.maxWidth > 900) {
         // Desktop
         width = MediaQuery.of(context).size.width * 0.6;
+        height = 200;
       } else if (constraints.maxWidth > 600) {
         // Tablet
         width = MediaQuery.of(context).size.width * 0.6;
+        height = 150;
       } else {
         // Mobile
         width = MediaQuery.of(context).size.width * 0.8;
+        height = 100;
       }
       return Container(
         padding: EdgeInsets.all(5),
         width: width,
-        height: 200,
+        height: height,
         decoration: BoxDecoration(
           border: Border.all(color: AppColors.white, width: 2),
           borderRadius: BorderRadius.circular(8),

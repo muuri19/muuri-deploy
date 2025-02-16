@@ -24,19 +24,31 @@ class ButtonLinkBio extends StatelessWidget {
       builder: (context, constraints) {
         double width;
         double height;
+        double fontSize;
+        double iconLeadingSize;
+        double iconActionSize;
 
         if (constraints.maxWidth > 900) {
           // Desktop
           width = MediaQuery.of(context).size.width * 0.6;
           height = 60;
+          fontSize = 12;
+          iconActionSize = 15;
+          iconLeadingSize = 24;
         } else if (constraints.maxWidth > 600) {
           // Tablet
           width = MediaQuery.of(context).size.width * 0.6;
           height = 60;
+          fontSize = 12;
+          iconActionSize = 15;
+          iconLeadingSize = 24;
         } else {
           // Mobile
           width = MediaQuery.of(context).size.width * 0.8;
           height = 45;
+          fontSize = 12;
+          iconActionSize = 10;
+          iconLeadingSize = 18;
         }
 
         return MouseRegion(
@@ -62,6 +74,7 @@ class ButtonLinkBio extends StatelessWidget {
                   FaIcon(
                     icon,
                     color: AppColors.white,
+                    size: iconLeadingSize,
                   ),
                   Text(
                     title,
@@ -70,7 +83,7 @@ class ButtonLinkBio extends StatelessWidget {
                   FaIcon(
                     FontAwesomeIcons.upRightFromSquare,
                     color: AppColors.white,
-                    size: 15,
+                    size: iconActionSize,
                   )
                 ],
               ),
