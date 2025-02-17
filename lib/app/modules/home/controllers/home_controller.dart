@@ -1,24 +1,10 @@
 import 'package:get/get.dart';
+import 'package:muuri_app/app/modules/home/widgets/dialog_profile.dart';
 
 class HomeController extends GetxController {
-  //TODO: Implement HomeController
-
-  final count = 0.obs;
-  @override
-  void onInit() {
-    super.onInit();
+  void showProfileDialog() {
+    Get.dialog(
+      DialogProfile(),
+    );
   }
-
-  @override
-  void onReady() {
-    super.onReady();
-  }
-
-  @override
-  void onClose() {
-    super.onClose();
-  }
-
-  void increment() => count.value++;
-
 }
